@@ -891,3 +891,100 @@ linking...
 Program Size: data=30.0 xdata=0 code=189
 creating hex file from ".\output\DMM"...
 ".\output\DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(13): warning C206: 'printf': missing function-prototype
+MAIN.C(13): error C267: 'printf': requires ANSI-style prototype
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+KNVLIB.C(25): error C202: 'r': undefined identifier
+KNVLIB.C(25): error C141: syntax error near 'return'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+KNVLIB.C(25): error C202: 'r': undefined identifier
+KNVLIB.C(25): error C141: syntax error near 'return'
+Target not created
+Build target 'Target 1'
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=51.1 xdata=0 code=1267
+creating hex file from ".\output\DMM"...
+".\output\DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=30.0 xdata=0 code=204
+creating hex file from ".\output\DMM"...
+".\output\DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(7): error C141: syntax error near 'uint32_t'
+MAIN.C(7): error C202: 'timestamp': undefined identifier
+MAIN.C(8): error C141: syntax error near 'uint32_t'
+MAIN.C(8): error C202: 'period': undefined identifier
+MAIN.C(9): error C141: syntax error near 'uint8_t'
+MAIN.C(9): error C202: 'led': undefined identifier
+MAIN.C(17): error C202: 'timestamp': undefined identifier
+MAIN.C(19): error C202: 'timestamp': undefined identifier
+MAIN.C(20): error C202: 'led': undefined identifier
+MAIN.C(23): error C202: 'led': undefined identifier
+MAIN.C(28): error C202: 'led': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(7): error C141: syntax error near 'uint32_t'
+MAIN.C(7): error C202: 'timestamp': undefined identifier
+MAIN.C(8): error C141: syntax error near 'uint32_t'
+MAIN.C(8): error C202: 'period': undefined identifier
+MAIN.C(9): error C141: syntax error near 'uint8_t'
+MAIN.C(9): error C202: 'led': undefined identifier
+MAIN.C(17): error C202: 'timestamp': undefined identifier
+MAIN.C(19): error C202: 'timestamp': undefined identifier
+MAIN.C(20): error C202: 'led': undefined identifier
+MAIN.C(23): error C202: 'led': undefined identifier
+MAIN.C(28): error C202: 'led': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=51.1 xdata=0 code=1267
+creating hex file from ".\output\DMM"...
+".\output\DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=51.1 xdata=0 code=1269
+creating hex file from ".\output\DMM"...
+".\output\DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(15): error C141: syntax error near 'uint32_t'
+MAIN.C(15): error C202: 'line': undefined identifier
+MAIN.C(21): error C202: 'line': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(15): error C141: syntax error near 'uint32_t'
+MAIN.C(15): error C202: 'line': undefined identifier
+MAIN.C(21): error C202: 'line': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=55.1 xdata=0 code=1347
+creating hex file from ".\output\DMM"...
+".\output\DMM" - 0 Error(s), 1 Warning(s).

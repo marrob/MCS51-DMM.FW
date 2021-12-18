@@ -23,4 +23,6 @@ typedef unsigned char uint8_t;
 void SystemTickInit(void);
 uint32_t GetTick(void);
 
+void SerialPortInit(void);
+
 #endif //__KNVLIB__H
