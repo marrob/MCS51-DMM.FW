@@ -7,7 +7,7 @@
 #define T0_PERIOD (65535 - ((SystemCoreClock/12)/1000)) /*1ms interrupt*/
 
 /* Private variables ---------------------------------------------------------*/
-volatile unsigned long SysTick;
+volatile uint32_t SysTick;   /*Increment every 1ms*/
 /* Private function prototypes -----------------------------------------------*/
 
 /* Exported functions --------------------------------------------------------*/
@@ -26,10 +26,9 @@ uint32_t GetTick(void)
 }
 
 /* Interrupts -----------------------------------------------------------------*/
-void T0Interrupt (void) interrupt 1 using 1 /* Int Vector at 000BH, Reg Bank 1 */
+void timer0 (void) interrupt 1 using 1 /* Int Vector at 000BH, Reg Bank 1 */
 { 
   TL0 =  T0_PERIOD;       /*T0 - Reload Register Low*/
   TH0 =  T0_PERIOD >> 8;  /*T0 - Reload Reighster High*/
   SysTick++;
 }
-

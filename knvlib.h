@@ -1,6 +1,6 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
-//#ifndef __KNVLIB__H
-//#define __KNVLIB__H  1
+#ifndef __KNVLIB__H
+#define __KNVLIB__H  1
 
 /* Includes ------------------------------------------------------------------*/
 
@@ -12,6 +12,9 @@ typedef unsigned char uint8_t;
 /* Exported constants --------------------------------------------------------*/
 #define SystemCoreClock 11059200
 
+#define InterruptEnable() { EA = 1; }
+#define InterruptDisable() { EA = 0; }
+
 /* Exported macro ------------------------------------------------------------*/
 
 
@@ -20,4 +23,4 @@ typedef unsigned char uint8_t;
 void SystemTickInit(void);
 uint32_t GetTick(void);
 
-//#endif //__KNVLIB__H
+#endif //__KNVLIB__H

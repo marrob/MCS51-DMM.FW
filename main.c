@@ -8,8 +8,8 @@ int main(void)
   uint32_t period = 0;
   uint8_t led = 0;
   SystemTickInit();
-  EA = 1;                                      /* global interrupt enable     */
-  
+  InterruptEnable();
+
   
   for(;;)
   {
