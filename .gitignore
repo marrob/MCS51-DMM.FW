@@ -1,0 +1,10 @@
+﻿output/
+*.bak
+*.uvopt
+*.dep
+*.sdf
+*.suo
+*.filters
+*.user
+*.opensdf
+.stldr

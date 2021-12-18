@@ -1,0 +1,807 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\@@@!ProjectS\MFWL130221\C51\DMM\DMM.uvproj
+Project File Date:  12/18/2021
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling STARTUP.A51...
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  ?C_START
+    MODULE:  STARTUP.obj (?C_STARTUP)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  ?C_START
+    MODULE:  STARTUP.obj (?C_STARTUP)
+    ADDRESS: 080AH
+Program Size: data=9.0 xdata=0 code=15
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=9.0 xdata=0 code=19
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=9.0 xdata=0 code=19
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=9.0 xdata=0 code=17
+"DMM" - 0 Error(s), 1 Warning(s).
+Clean started: Project: 'DMM'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=9.0 xdata=0 code=17
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(6): error C202: 'uint8_t': undefined identifier
+MAIN.C(6): error C141: syntax error near 'x'
+Target not created
+Clean started: Project: 'DMM'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=9.0 xdata=0 code=25
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=9.0 xdata=0 code=26
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(10): error C141: syntax error near 'int'
+MAIN.C(10): error C202: 'x': undefined identifier
+MAIN.C(13): error C202: 'x': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=9.0 xdata=0 code=30
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(12): error C141: syntax error near 'int'
+MAIN.C(12): error C202: 'x': undefined identifier
+MAIN.C(15): error C202: 'x': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=9.0 xdata=0 code=32
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+C51 FATAL-ERROR -
+  ACTION:  PARSING INVOKE-/#PRAGMA-LINE
+  LINE:    C:\Keil_v5\C51\BIN\C51.EXE main.c BROWSE DEFINE(
+  ERROR:   NON-NULL ARGUMENT EXPECTED
+C51 TERMINATED.
+Target not created
+Build target 'Target 1'
+compiling main.c...
+C51 FATAL-ERROR -
+  ACTION:  PARSING INVOKE-/#PRAGMA-LINE
+  LINE:    C:\Keil_v5\C51\BIN\C51.EXE main.c BROWSE-C99 
+  ERROR:   UNKNOWN CONTROL
+C51 TERMINATED.
+Target not created
+Build target 'Target 1'
+compiling main.c...
+C51 FATAL-ERROR -
+  ACTION:  PARSING INVOKE-/#PRAGMA-LINE
+  LINE:    C:\Keil_v5\C51\BIN\C51.EXE main.c BROWSE-C99 
+  ERROR:   UNKNOWN CONTROL
+C51 TERMINATED.
+Target not created
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+C51 FATAL-ERROR -
+  ACTION:  PARSING INVOKE-/#PRAGMA-LINE
+  LINE:    C:\Keil_v5\C51\BIN\C51.EXE main.c BROWSE C99 
+  ERROR:   UNKNOWN CONTROL
+C51 TERMINATED.
+Target not created
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=9.0 xdata=0 code=32
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(5): error C129: missing ';' before 'unsinged'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=11.0 xdata=0 code=44
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=11.0 xdata=0 code=44
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=11.0 xdata=0 code=32
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=9.0 xdata=0 code=32
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(17): error C202: 'x': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?SYSTEMTICKINIT?MAIN
+Program Size: data=9.0 xdata=0 code=37
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=92
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=94
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=100
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(9): error C141: syntax error near 'volatile'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(9): error C141: syntax error near 'volatile'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(9): error C141: syntax error near 'volatile'
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=17.0 xdata=0 code=233
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=229
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=106
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=109
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=15.0 xdata=0 code=109
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=15.0 xdata=0 code=109
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=25.0 xdata=0 code=133
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=30.0 xdata=0 code=197
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=30.0 xdata=0 code=197
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=30.0 xdata=0 code=197
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: data=30.0 xdata=0 code=197
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+main.c(3): warning C318: can't open file 'kvnlib.h'
+MAIN.C(14): error C202: 'uint32_t': undefined identifier
+MAIN.C(14): error C141: syntax error near 'timestamp'
+MAIN.C(15): error C202: 'uint32_t': undefined identifier
+MAIN.C(15): error C141: syntax error near 'period'
+MAIN.C(16): error C202: 'uint8_t': undefined identifier
+MAIN.C(16): error C141: syntax error near 'led'
+MAIN.C(20): error C202: 'period': undefined identifier
+MAIN.C(24): error C202: 'timestamp': undefined identifier
+MAIN.C(26): error C202: 'timestamp': undefined identifier
+MAIN.C(27): error C202: 'led': undefined identifier
+MAIN.C(30): error C202: 'led': undefined identifier
+MAIN.C(35): error C202: 'led': undefined identifier
+MAIN.C(46): error C202: 'T0_PERIOD': undefined identifier
+MAIN.C(47): error C202: 'T0_PERIOD': undefined identifier
+MAIN.C(57): error C202: 'T0_PERIOD': undefined identifier
+MAIN.C(58): error C202: 'T0_PERIOD': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=30.0 xdata=0 code=197
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0824H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0845H
+Program Size: data=18.0 xdata=0 code=132
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(13): error C202: 'T0_PERIOD': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0819H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 083AH
+Program Size: data=18.0 xdata=0 code=120
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0819H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 083AH
+Program Size: data=18.0 xdata=0 code=120
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0819H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 083AH
+Program Size: data=18.0 xdata=0 code=120
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0819H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 083AH
+Program Size: data=18.0 xdata=0 code=120
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+MAIN.C(16): warning C206: 'GetTick': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0819H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0840H
+Program Size: data=18.0 xdata=0 code=130
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 7 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0819H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 083AH
+Program Size: data=18.0 xdata=0 code=120
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0816H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0837H
+Program Size: data=18.0 xdata=0 code=117
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0816H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  GETTICK
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0837H
+Program Size: data=18.0 xdata=0 code=117
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=18.0 xdata=0 code=38
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Clean started: Project: 'DMM'
+   deleting intermediate output files for target 'Target 1'
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SYSTEMTICKINIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0814H
+Program Size: data=18.0 xdata=0 code=41
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080DH
+Program Size: data=9.0 xdata=0 code=22
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080DH
+Program Size: data=9.0 xdata=0 code=22
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  INIT
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 080DH
+Program Size: data=9.0 xdata=0 code=22
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+KNVLIB.C(6): error C202: 'T0_PERIOD': undefined identifier
+KNVLIB.C(7): error C202: 'T0_PERIOD': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=30.0 xdata=0 code=189
+creating hex file from "DMM"...
+"DMM" - 0 Error(s), 2 Warning(s).
+Build target 'Target 1'
+assembling STARTUP.A51...
+compiling main.c...
+MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+compiling knvlib.c...
+KNVLIB.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+Program Size: data=30.0 xdata=0 code=189
+creating hex file from ".\output\DMM"...
+".\output\DMM" - 0 Error(s), 2 Warning(s).
