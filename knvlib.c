@@ -22,16 +22,16 @@ void SystemTickInit(void)
   ET0 = 1;                /*T0 - Interrupt Enable */
 }
 
-uint32_t GetTick(void)
-{
-  return (SysTick);
-}
-
 void T0Interrupt (void) interrupt 1 using 1 /* Int Vector at 000BH, Reg Bank 1 */
 { 
   TL0 =  T0_PERIOD;       /*T0 - Reload Register Low*/
   TH0 =  T0_PERIOD >> 8;  /*T0 - Reload Reighster High*/
   SysTick++;
+}
+
+uint32_t GetTick(void)
+{
+  return (SysTick);
 }
 
 /*--- UART ---*/

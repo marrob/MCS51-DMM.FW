@@ -1,4 +1,4 @@
-﻿output/
+output/
 *.bak
 *.uvopt
 *.dep
@@ -8,3 +8,5 @@
 *.user
 *.opensdf
 .stldr
+*.Margit Robert
+*.LST
